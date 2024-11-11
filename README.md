@@ -6,7 +6,7 @@
 - [x] isdigit
 - [x] isalnum
 - [x] isascii
-- [ ] isprint
+- [x] isprint
 - [x] strlen
 - [ ] memset
 - [ ] bzero
