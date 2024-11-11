@@ -6,7 +6,7 @@
 /*   By: elagouch <elagouch@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/05 15:32:58 by elagouch          #+#    #+#             */
-/*   Updated: 2024/11/11 18:19:37 by elagouch         ###   ########.fr       */
+/*   Updated: 2024/11/11 18:31:58 by elagouch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,6 +21,7 @@ size_t			ft_strlen(const char *str);
 void			*ft_memmove(void *dest, const void *src, size_t n);
 void			*ft_memcpy(void *dest, const void *src, size_t n);
 void			*ft_memchr(const void *s, int c, size_t n);
+void			*ft_calloc(size_t nmemb, size_t size);
 void			*ft_memset(void *s, int c, size_t n);
 void			*ft_bzero(void *s, size_t n);
 char			*ft_strnstr(const char *big, const char *little, size_t len);
