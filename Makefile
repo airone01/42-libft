@@ -6,7 +6,7 @@
 #    By: elagouch <elagouch@student.42lyon.fr>      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/05 15:39:47 by elagouch          #+#    #+#              #
-#    Updated: 2024/11/11 16:32:56 by elagouch         ###   ########.fr        #
+#    Updated: 2024/11/11 16:41:58 by elagouch         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -19,6 +19,7 @@ SRC = ft_bzero.c	\
 	ft_isascii.c	\
 	ft_isdigit.c	\
 	ft_isprint.c	\
+	ft_memchr.c		\
 	ft_memcpy.c		\
 	ft_memmove.c	\
 	ft_memset.c		\
