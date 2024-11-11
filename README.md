@@ -21,7 +21,7 @@
 - [x] strncmp
 - [x] memchr
 - [x] memcmp
-- [ ] strnstr
-- [ ] atoi
+- [x] strnstr
+- [x] atoi
 - [ ] calloc
 - [ ] strdup

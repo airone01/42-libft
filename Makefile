@@ -6,14 +6,15 @@
 #    By: elagouch <elagouch@student.42lyon.fr>      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/05 15:39:47 by elagouch          #+#    #+#              #
-#    Updated: 2024/11/11 17:14:49 by elagouch         ###   ########.fr        #
+#    Updated: 2024/11/11 17:22:03 by elagouch         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = libft.a
 CC = cc
 CFLAGS = -Wall -Werror -Wextra -Wpedantic
-SRC = ft_bzero.c	\
+SRC = ft_atoi.c		\
+	ft_bzero.c		\
 	ft_isalnum.c	\
 	ft_isalpha.c	\
 	ft_isascii.c	\
