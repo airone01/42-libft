@@ -6,7 +6,7 @@
 #    By: elagouch <elagouch@student.42lyon.fr>      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/05 15:39:47 by elagouch          #+#    #+#              #
-#    Updated: 2024/11/11 15:52:44 by elagouch         ###   ########.fr        #
+#    Updated: 2024/11/11 16:20:51 by elagouch         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,11 +16,13 @@ CFLAGS = -Wall -Werror -Wextra -Wpedantic
 SRC = ft_bzero.c	\
 	ft_isalnum.c	\
 	ft_isalpha.c	\
+	ft_isascii.c	\
 	ft_isdigit.c	\
 	ft_isprint.c	\
 	ft_memcpy.c		\
 	ft_memmove.c	\
 	ft_memset.c		\
+	ft_strchr.c		\
 	ft_strlcat.c	\
 	ft_strlcpy.c	\
 	ft_strlen.c		\
