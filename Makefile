@@ -6,7 +6,7 @@
 #    By: elagouch <elagouch@student.42lyon.fr>      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/05 15:39:47 by elagouch          #+#    #+#              #
-#    Updated: 2024/11/11 13:32:07 by elagouch         ###   ########.fr        #
+#    Updated: 2024/11/11 13:37:15 by elagouch         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -18,6 +18,7 @@ SRC = ft_bzero.c	\
 	ft_isalpha.c	\
 	ft_isdigit.c	\
 	ft_isprint.c	\
+	ft_memcpy.c		\
 	ft_memset.c		\
 	ft_strlen.c
 OBJ = $(SRC:.c=.o)
