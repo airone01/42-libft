@@ -1,26 +1,28 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   libft.h                                            :+:      :+:    :+:   */
+/*   ft_bzero.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: elagouch <elagouch@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/11/05 15:32:58 by elagouch          #+#    #+#             */
-/*   Updated: 2024/11/11 13:32:25 by elagouch         ###   ########.fr       */
+/*   Created: 2024/11/11 13:30:33 by elagouch          #+#    #+#             */
+/*   Updated: 2024/11/11 13:31:47 by elagouch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef LIBFT_H
-# define LIBFT_H
+#include "libft.h"
 
-# include <stdlib.h>
-
-size_t	ft_strlen(const char *str);
-void	*ft_memset(void *s, int c, size_t n);
-void	*ft_bzero(void *s, size_t n);
-int		ft_isalnum(int c);
-int		ft_isalpha(int c);
-int		ft_isdigit(int c);
-int		ft_isprint(int c);
-
-#endif
+/*
+ * The  bzero()  function erases the data in the n bytes of the memory starting
+ * at the location pointed to by s, by writing zeros (bytes containing '\0') to
+ * that area.
+ *
+ * @param	s	pointer
+ * @param	n	size in number of bytes
+ *
+ * @returns	pointer to the memory area s
+ */
+void	*ft_bzero(void *s, size_t n)
+{
+	return (ft_memset(s, 0, n));
+}
