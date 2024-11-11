@@ -6,11 +6,10 @@
 /*   By: elagouch <elagouch@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 18:23:11 by elagouch          #+#    #+#             */
-/*   Updated: 2024/11/11 18:38:23 by elagouch         ###   ########.fr       */
+/*   Updated: 2024/11/11 18:56:22 by elagouch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
 #include "libft.h"
 
 /*
@@ -27,7 +26,10 @@
  * malloc(nmemb * size);
  * ```
  *
- * @param	nmemb
+ * @param	nmemb	length of the variable
+ * @param	size	length of the type of the variable
+ *
+ * @returns	pointer filled with NUL
  */
 void	*ft_calloc(size_t nmemb, size_t size)
 {

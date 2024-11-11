@@ -6,7 +6,7 @@
 #    By: elagouch <elagouch@student.42lyon.fr>      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/05 15:39:47 by elagouch          #+#    #+#              #
-#    Updated: 2024/11/11 18:31:43 by elagouch         ###   ########.fr        #
+#    Updated: 2024/11/11 18:50:59 by elagouch         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -26,6 +26,7 @@ SRC = ft_atoi.c		\
 	ft_memcpy.c		\
 	ft_memmove.c	\
 	ft_memset.c		\
+	ft_strdup.c		\
 	ft_strrchr.c	\
 	ft_strchr.c		\
 	ft_strlcat.c	\

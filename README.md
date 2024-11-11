@@ -24,4 +24,4 @@
 - [x] strnstr
 - [x] atoi
 - [x] calloc
-- [ ] strdup
+- [x] strdup
