@@ -6,7 +6,7 @@
 #    By: elagouch <elagouch@student.42lyon.fr>      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/05 15:39:47 by elagouch          #+#    #+#              #
-#    Updated: 2024/11/11 16:28:17 by elagouch         ###   ########.fr        #
+#    Updated: 2024/11/11 16:32:56 by elagouch         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -27,6 +27,7 @@ SRC = ft_bzero.c	\
 	ft_strlcat.c	\
 	ft_strlcpy.c	\
 	ft_strlen.c		\
+	ft_strncmp.c	\
 	ft_tolower.c	\
 	ft_toupper.c
 OBJ = $(SRC:.c=.o)
