@@ -6,7 +6,7 @@
 /*   By: elagouch <elagouch@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/05 15:32:58 by elagouch          #+#    #+#             */
-/*   Updated: 2024/11/11 14:37:42 by elagouch         ###   ########.fr       */
+/*   Updated: 2024/11/11 15:08:12 by elagouch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,7 @@
 
 # include <stdlib.h>
 
+unsigned int	ft_strlcat(char *dst, const char *src, size_t size);
 unsigned int	ft_strlcpy(char *dst, const char *src, size_t size);
 size_t			ft_strlen(const char *str);
 void			*ft_memmove(void *dest, const void *src, size_t n);

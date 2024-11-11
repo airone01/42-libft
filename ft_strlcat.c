@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strlcpy.c                                       :+:      :+:    :+:   */
+/*   ft_strlcat.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: elagouch <elagouch@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/11/11 14:26:39 by elagouch          #+#    #+#             */
-/*   Updated: 2024/11/11 15:07:00 by elagouch         ###   ########.fr       */
+/*   Created: 2024/11/11 15:07:16 by elagouch          #+#    #+#             */
+/*   Updated: 2024/11/11 15:24:53 by elagouch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,27 +24,32 @@
  * src must be NUL-terminated and for strlcat() both src and dst must be NUL-ter‐
  * minated.
  *
- * The strlcpy() function copies up to size - 1 characters from the NUL-termi‐
- * nated string src to dst, NUL-terminating the result.
+ * The strlcat() function appends the NUL-terminated string src to the end of
+ * dst.  It will append at most size - strlen(dst) - 1 bytes, NUL-terminating the
+ * result.
  *
- * @param	dest	destination pointer
+ * @param	dst	destination pointer
  * @param	src		source pointer
  * @param	size	number of characters to copy
  *
- * @returns	pointer to the destination string dest
+ * @returns	pointer to the destination string dst
  */
-unsigned int	ft_strlcpy(char *dst, const char *src, size_t size)
+unsigned int	ft_strlcat(char *dst, const char *src, size_t size)
 {
+	size_t	dst_len;
+	size_t	src_len;
 	size_t	i;
 
+	src_len = ft_strlen(src);
+	dst_len = ft_strlen(dst);
+	if (size <= dst_len)
+		return (size + src_len);
 	i = 0;
-	while (src[i])
+	while (size && src[i] && (dst_len + i) < (size - 1))
+	{
+		dst[dst_len + i] = src[i];
 		i++;
-	if (size == 0)
-		return (i);
-	size--;
-	while (size-- && *src)
-		*dst++ = *src++;
-	*dst = '\0';
-	return (i);
+	}
+	dst[dst_len + i] = '\0';
+	return (dst_len + src_len);
 }
