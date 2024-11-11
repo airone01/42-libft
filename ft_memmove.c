@@ -6,21 +6,11 @@
 /*   By: elagouch <elagouch@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 13:33:47 by elagouch          #+#    #+#             */
-/*   Updated: 2024/11/11 14:23:56 by elagouch         ###   ########.fr       */
+/*   Updated: 2024/11/11 14:24:52 by elagouch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
-int	does_overlap(const void *src, const void *dest, size_t n)
-{
-	const unsigned char	*src_start = (const unsigned char*)src;
-	const unsigned char	*src_end = src_start + n;
-	const unsigned char	*dest_start = (const unsigned char*)dest;
-	const unsigned char	*dest_end = dest_start + n;
-
-	return (src_start < dest_end && dest_start < src_end);
-}
 
 /*
  * The  memmove()  function  copies n bytes from memory area src to memory area
