@@ -6,7 +6,7 @@
 /*   By: elagouch <elagouch@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/05 15:32:58 by elagouch          #+#    #+#             */
-/*   Updated: 2024/11/11 16:42:25 by elagouch         ###   ########.fr       */
+/*   Updated: 2024/11/11 16:59:10 by elagouch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,6 +26,7 @@ void			*ft_bzero(void *s, size_t n);
 char			*ft_strrchr(const char *s, int c);
 char			*ft_strchr(const char *s, int c);
 int				ft_strncmp(const char *s1, const char *s2, size_t n);
+int				ft_memcmp(const void *s1, const void *s2, size_t n);
 int				ft_toupper(int c);
 int				ft_tolower(int c);
 int				ft_isalnum(int c);
