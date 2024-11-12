@@ -6,7 +6,7 @@
 #    By: elagouch <elagouch@student.42lyon.fr>      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/05 15:39:47 by elagouch          #+#    #+#              #
-#    Updated: 2024/11/12 18:51:02 by elagouch         ###   ########.fr        #
+#    Updated: 2024/11/12 18:54:08 by elagouch         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -50,6 +50,7 @@ SRC =				\
 	ft_substr.c
 SRC_BONUS =				\
 	ft_lstadd_front.c	\
+	ft_lstlast.c		\
 	ft_lstnew.c			\
 	ft_lstsize.c
 OBJ = $(SRC:.c=.o)
@@ -70,5 +71,5 @@ fclean: clean
 	rm -f $(NAME)
 re: fclean all
 
-.PHONY: all fclean re bonus
+.PHONY: all bonus fclean re
 
