@@ -6,7 +6,7 @@
 #    By: elagouch <elagouch@student.42lyon.fr>      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/05 15:39:47 by elagouch          #+#    #+#              #
-#    Updated: 2024/11/12 17:27:45 by elagouch         ###   ########.fr        #
+#    Updated: 2024/11/12 17:32:47 by elagouch         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -30,6 +30,7 @@ SRC =				\
 	ft_memset.c		\
 	ft_putchar_fd.c	\
 	ft_putendl_fd.c	\
+	ft_putnbr_fd.c	\
 	ft_putstr_fd.c	\
 	ft_split.c		\
 	ft_strdup.c		\

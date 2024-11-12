@@ -1,25 +1,41 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putendl_fd.c                                    :+:      :+:    :+:   */
+/*   ft_putnbr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: elagouch <elagouch@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/11/12 17:22:44 by elagouch          #+#    #+#             */
-/*   Updated: 2024/11/12 17:30:25 by elagouch         ###   ########.fr       */
+/*   Created: 2024/11/12 17:17:19 by elagouch          #+#    #+#             */
+/*   Updated: 2024/11/12 17:39:01 by elagouch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 /*
- * Outputs the string ’s’ to the given file descriptor followed by a newline.
+ * Outputs the integer ’n’ to the given file descriptor.
  *
- * @param	s	the string to output
+ * @param	c	the interger to output
  * @param	fd	the file descriptor on which to write
  */
-void	ft_putendl_fd(char *s, int fd)
+void	ft_putnbr_fd(int n, int fd)
 {
-	write(fd, s, ft_strlen(s) * sizeof(char));
-	write(fd, "\n", sizeof(char));
+	if (n == -2147483648)
+	{
+		write(fd, "-2147483648", 11 * sizeof(char));
+		return ;
+	}
+	if (n < 0)
+	{
+		ft_putchar_fd('-', fd);
+		ft_putnbr_fd(-n, fd);
+		return ;
+	}
+	if (n > 9)
+	{
+		ft_putnbr_fd(n / 10, fd);
+		ft_putchar_fd(n % 10 + '0', fd);
+		return ;
+	}
+	ft_putchar_fd(n + '0', fd);
 }
