@@ -46,7 +46,7 @@
 
 - [x] ft\_lstnew
 - [x] ft\_lstadd\_front
-- [ ] ft\_lstsize
+- [x] ft\_lstsize
 - [ ] ft\_lstlast
 - [ ] ft\_lstadd\_back
 - [ ] ft\_lstdelone

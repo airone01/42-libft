@@ -6,7 +6,7 @@
 #    By: elagouch <elagouch@student.42lyon.fr>      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/05 15:39:47 by elagouch          #+#    #+#              #
-#    Updated: 2024/11/12 18:35:04 by elagouch         ###   ########.fr        #
+#    Updated: 2024/11/12 18:51:02 by elagouch         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -50,20 +50,22 @@ SRC =				\
 	ft_substr.c
 SRC_BONUS =				\
 	ft_lstadd_front.c	\
-	ft_lstnew.c
+	ft_lstnew.c			\
+	ft_lstsize.c
 OBJ = $(SRC:.c=.o)
+OBJ_BONUS = $(SRC_BONUS:.c=.o)
 
 LIB=libft.a
 
 all: $(NAME)
-bonus:
-	make -e SRC="$(SRC) $(SRC_BONUS)"
 $(NAME): $(OBJ)
 	ar rcs $(NAME) $(OBJ)
+bonus: $(OBJ) $(OBJ_BONUS)
+	ar rcs $(NAME) $(OBJ) $(OBJ_BONUS)
 %.o: %.c
 	$(CC) $(CFLAGS) -c $< -o $@
 clean:
-	rm -f $(OBJ)
+	rm -f $(OBJ) $(OBJ_BONUS)
 fclean: clean
 	rm -f $(NAME)
 re: fclean all

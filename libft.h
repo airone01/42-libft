@@ -6,7 +6,7 @@
 /*   By: elagouch <elagouch@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/05 15:32:58 by elagouch          #+#    #+#             */
-/*   Updated: 2024/11/12 18:37:33 by elagouch         ###   ########.fr       */
+/*   Updated: 2024/11/12 18:41:02 by elagouch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,7 @@ typedef struct s_list
 }				t_list;
 t_list			*ft_lstnew(void *content);
 void			ft_lstadd_front(t_list **lst, t_list *new);
+int				ft_lstsize(t_list *lst);
 // Standard C lib
 unsigned int	ft_strlcat(char *dst, const char *src, size_t size);
 unsigned int	ft_strlcpy(char *dst, const char *src, size_t size);
