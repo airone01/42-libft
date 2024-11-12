@@ -34,8 +34,7 @@
 - [x] ft\_strjoin
 - [x] ft\_strtrim
 - [x] ft\_split
-- [ ] ft\_itoa
-- [ ] ft\_itoa
+- [x] ft\_itoa
 - [ ] ft\_striteri
 - [ ] ft\_putchar\_fd
 - [ ] ft\_putstr\_fd

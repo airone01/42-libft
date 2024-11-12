@@ -6,7 +6,7 @@
 /*   By: elagouch <elagouch@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/05 15:32:58 by elagouch          #+#    #+#             */
-/*   Updated: 2024/11/12 10:59:18 by elagouch         ###   ########.fr       */
+/*   Updated: 2024/11/12 11:54:36 by elagouch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,6 +46,8 @@ char			**ft_split(char *str, char c);
 char			*ft_substr(char const *s, unsigned int start, size_t len);
 char			*ft_strtrim(char const *s1, char const *set);
 char			*ft_strjoin(char const *s1, char const *s2);
+char			*ft_itoa_base(int n, const char *b);
+char			*ft_itoa(int n);
 
 // Bonuses
 
