@@ -6,7 +6,7 @@
 /*   By: elagouch <elagouch@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/05 15:32:58 by elagouch          #+#    #+#             */
-/*   Updated: 2024/11/12 18:03:27 by elagouch         ###   ########.fr       */
+/*   Updated: 2024/11/12 18:37:33 by elagouch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,14 @@
 # include <unistd.h>
 # include <stdlib.h>
 
+// Bonuses
+typedef struct s_list
+{
+	void			*content;
+	struct s_list	*next;
+}				t_list;
+t_list			*ft_lstnew(void *content);
+void			ft_lstadd_front(t_list **lst, t_list *new);
 // Standard C lib
 unsigned int	ft_strlcat(char *dst, const char *src, size_t size);
 unsigned int	ft_strlcpy(char *dst, const char *src, size_t size);
@@ -54,12 +62,5 @@ char			*ft_strtrim(char const *s1, char const *set);
 char			*ft_strjoin(char const *s1, char const *s2);
 char			*ft_itoa_base(int n, const char *b);
 char			*ft_itoa(int n);
-
-// Bonuses
-typedef struct s_list
-{
-	void			*content;
-	struct s_list	*next;
-}				t_list;
 
 #endif

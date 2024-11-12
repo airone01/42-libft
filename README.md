@@ -41,3 +41,16 @@
 - [x] ft\_putstr\_fd
 - [x] ft\_putendl\_fd
 - [x] ft\_putnbr\_fd
+
+## Bonuses
+
+- [x] ft\_lstnew
+- [x] ft\_lstadd\_front
+- [ ] ft\_lstsize
+- [ ] ft\_lstlast
+- [ ] ft\_lstadd\_back
+- [ ] ft\_lstdelone
+- [ ] ft\_lstclear
+- [ ] ft\_lstiter
+- [ ] ft\_lstmap
+

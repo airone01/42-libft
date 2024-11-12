@@ -6,7 +6,7 @@
 #    By: elagouch <elagouch@student.42lyon.fr>      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/05 15:39:47 by elagouch          #+#    #+#              #
-#    Updated: 2024/11/12 17:49:52 by elagouch         ###   ########.fr        #
+#    Updated: 2024/11/12 18:35:04 by elagouch         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -48,7 +48,9 @@ SRC =				\
 	ft_tolower.c	\
 	ft_toupper.c	\
 	ft_substr.c
-SRC_BONUS =
+SRC_BONUS =				\
+	ft_lstadd_front.c	\
+	ft_lstnew.c
 OBJ = $(SRC:.c=.o)
 
 LIB=libft.a
