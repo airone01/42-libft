@@ -51,6 +51,6 @@
 - [x] ft\_lstadd\_back
 - [x] ft\_lstdelone
 - [x] ft\_lstclear
-- [ ] ft\_lstiter
+- [x] ft\_lstiter
 - [ ] ft\_lstmap
 
