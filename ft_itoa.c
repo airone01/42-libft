@@ -6,31 +6,13 @@
 /*   By: elagouch <elagouch@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/12 11:19:05 by elagouch          #+#    #+#             */
-/*   Updated: 2024/11/12 12:16:21 by elagouch         ###   ########.fr       */
+/*   Updated: 2024/11/12 18:13:17 by elagouch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-/*
- * Calculates the length of digits needed to represent an integer as a string,
- * including the minus sign for negative numbers.
- *
- * @param	n	the integer to measure
- * @param	b	base
- *
- * @returns	total length needed for the string representation:
- * 			- for 0: returns 1
- * 			- for negative numbers: number of digits + 1 (for the minus sign)
- * 			- for positive numbers: number of digits
- *
- * Examples:
- * - get_num_len(0)    returns 1 ("0")
- * - get_num_len(123)  returns 3 ("123")
- * - get_num_len(-123) returns 4 ("-123")
- * - get_num_len(-0)   returns 1 ("0")
- */
-size_t	get_num_len(int n, const char *b)
+static size_t	get_num_len(int n, const char *b)
 {
 	size_t	len;
 	size_t	bl;
@@ -51,19 +33,7 @@ size_t	get_num_len(int n, const char *b)
 	return (len);
 }
 
-/*
- * Fills a pre-allocated string with the string representation of an integer.
- * The function handles negative numbers and writes directly into the provided
- * string buffer.
- *
- * @param	str	pre-allocated string buffer to write into. Must be large enough
- * 				to hold the number plus null terminator (len + 1 bytes)
- * @param	n	the integer to convert to a string
- * @param	len	the length of the final string (excluding null terminator),
- * 				must match the actual space needed for the number
- * @param	b	base
- */
-void	fill_number(char *s, int n, int len, const char *b)
+static void	fill_number(char *s, int n, int len, const char *b)
 {
 	size_t	bl;
 	long	num;

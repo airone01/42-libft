@@ -6,7 +6,7 @@
 /*   By: elagouch <elagouch@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/12 09:19:50 by elagouch          #+#    #+#             */
-/*   Updated: 2024/11/12 09:51:01 by elagouch         ###   ########.fr       */
+/*   Updated: 2024/11/12 18:04:35 by elagouch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,6 +29,8 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	if (start >= ft_strlen(s))
 	{
 		dst = ft_calloc(1, sizeof(char));
+		if (!dst)
+			return (0);
 		dst[0] = '\0';
 		return (dst);
 	}
