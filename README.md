@@ -36,8 +36,8 @@
 - [x] ft\_split
 - [x] ft\_itoa
 - [x] ft\_strmapi
-- [ ] ft\_striteri
-- [ ] ft\_putchar\_fd
+- [x] ft\_striteri
+- [x] ft\_putchar\_fd
 - [ ] ft\_putstr\_fd
 - [ ] ft\_putendl\_fd
 - [ ] ft\_putnbr\_fd
