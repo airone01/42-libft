@@ -6,7 +6,7 @@
 /*   By: elagouch <elagouch@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 15:07:16 by elagouch          #+#    #+#             */
-/*   Updated: 2024/11/11 15:24:53 by elagouch         ###   ########.fr       */
+/*   Updated: 2024/11/12 09:55:43 by elagouch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@
  * dst.  It will append at most size - strlen(dst) - 1 bytes, NUL-terminating the
  * result.
  *
- * @param	dst	destination pointer
+ * @param	dst		destination pointer
  * @param	src		source pointer
  * @param	size	number of characters to copy
  *

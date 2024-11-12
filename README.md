@@ -31,7 +31,7 @@
 ### Additional functions
 
 - [x] ft\_substr
-- [ ] ft\_strjoin
+- [x] ft\_strjoin
 - [ ] ft\_strtrim
 - [ ] ft\_split
 - [ ] ft\_itoa
