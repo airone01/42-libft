@@ -32,7 +32,7 @@
 
 - [x] ft\_substr
 - [x] ft\_strjoin
-- [ ] ft\_strtrim
+- [x] ft\_strtrim
 - [ ] ft\_split
 - [ ] ft\_itoa
 - [ ] ft\_itoa

@@ -6,7 +6,7 @@
 #    By: elagouch <elagouch@student.42lyon.fr>      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/05 15:39:47 by elagouch          #+#    #+#              #
-#    Updated: 2024/11/12 10:01:59 by elagouch         ###   ########.fr        #
+#    Updated: 2024/11/12 10:30:46 by elagouch         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -39,6 +39,7 @@ SRC =				\
 	ft_toupper.c
 SRC_BONUS =			\
 	ft_strjoin.c	\
+	ft_strtrim.c	\
 	ft_substr.c
 OBJ = $(SRC:.c=.o)
 
