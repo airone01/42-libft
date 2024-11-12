@@ -6,7 +6,7 @@
 #    By: elagouch <elagouch@student.42lyon.fr>      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/05 15:39:47 by elagouch          #+#    #+#              #
-#    Updated: 2024/11/12 16:39:14 by elagouch         ###   ########.fr        #
+#    Updated: 2024/11/12 17:14:52 by elagouch         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -32,6 +32,7 @@ SRC =				\
 	ft_strdup.c		\
 	ft_strrchr.c	\
 	ft_strchr.c		\
+	ft_striteri.c	\
 	ft_strjoin.c	\
 	ft_strlcat.c	\
 	ft_strlcpy.c	\
