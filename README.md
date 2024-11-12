@@ -52,5 +52,5 @@
 - [x] ft\_lstdelone
 - [x] ft\_lstclear
 - [x] ft\_lstiter
-- [ ] ft\_lstmap
+- [x] ft\_lstmap
 

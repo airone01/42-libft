@@ -6,7 +6,7 @@
 #    By: elagouch <elagouch@student.42lyon.fr>      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/05 15:39:47 by elagouch          #+#    #+#              #
-#    Updated: 2024/11/12 19:22:52 by elagouch         ###   ########.fr        #
+#    Updated: 2024/11/12 19:47:59 by elagouch         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -55,6 +55,7 @@ SRC_BONUS =				\
 	ft_lstdelone.c		\
 	ft_lstiter.c		\
 	ft_lstlast.c		\
+	ft_lstmap.c			\
 	ft_lstnew.c			\
 	ft_lstsize.c
 OBJ = $(SRC:.c=.o)
