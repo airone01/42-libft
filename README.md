@@ -47,8 +47,8 @@
 - [x] ft\_lstnew
 - [x] ft\_lstadd\_front
 - [x] ft\_lstsize
-- [ ] ft\_lstlast
-- [ ] ft\_lstadd\_back
+- [x] ft\_lstlast
+- [x] ft\_lstadd\_back
 - [ ] ft\_lstdelone
 - [ ] ft\_lstclear
 - [ ] ft\_lstiter
