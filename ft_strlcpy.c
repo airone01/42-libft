@@ -6,7 +6,7 @@
 /*   By: elagouch <elagouch@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 14:26:39 by elagouch          #+#    #+#             */
-/*   Updated: 2024/11/11 15:07:00 by elagouch         ###   ########.fr       */
+/*   Updated: 2024/11/12 09:32:54 by elagouch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,7 @@
  * @param	src		source pointer
  * @param	size	number of characters to copy
  *
- * @returns	pointer to the destination string dest
+ * @returns	total length of the string the function tried to create
  */
 unsigned int	ft_strlcpy(char *dst, const char *src, size_t size)
 {

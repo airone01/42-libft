@@ -6,7 +6,7 @@
 /*   By: elagouch <elagouch@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 17:10:34 by elagouch          #+#    #+#             */
-/*   Updated: 2024/11/11 17:16:03 by elagouch         ###   ########.fr       */
+/*   Updated: 2024/11/12 09:24:34 by elagouch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,8 +24,8 @@
  * @param	len		most characters to search
  *
  * @returns	If little is an empty string, big is returned; if little occurs
- * 	nowhere in big, NULL is returned; otherwise a pointer to the first
- * 	character of the first occurrence of little is returned.
+ * 			nowhere in big, NULL is returned; otherwise a pointer to the first
+ * 			character of the first occurrence of little is returned.
  */
 char	*ft_strnstr(const char *big, const char *little, size_t len)
 {

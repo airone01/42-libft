@@ -30,7 +30,7 @@
 
 ### Additional functions
 
-- [ ] ft\_substr
+- [x] ft\_substr
 - [ ] ft\_strjoin
 - [ ] ft\_strtrim
 - [ ] ft\_split

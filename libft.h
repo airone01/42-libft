@@ -6,7 +6,7 @@
 /*   By: elagouch <elagouch@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/05 15:32:58 by elagouch          #+#    #+#             */
-/*   Updated: 2024/11/11 18:54:08 by elagouch         ###   ########.fr       */
+/*   Updated: 2024/11/12 09:22:22 by elagouch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,7 @@
 # include <unistd.h>
 # include <stdlib.h>
 
+// Standard C lib
 unsigned int	ft_strlcat(char *dst, const char *src, size_t size);
 unsigned int	ft_strlcpy(char *dst, const char *src, size_t size);
 size_t			ft_strlen(const char *str);
@@ -40,5 +41,8 @@ int				ft_isalpha(int c);
 int				ft_isascii(int c);
 int				ft_isdigit(int c);
 int				ft_isprint(int c);
+
+// Bonuses
+char			*ft_substr(char const *s, unsigned int start, size_t len);
 
 #endif
