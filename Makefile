@@ -6,7 +6,7 @@
 #    By: elagouch <elagouch@student.42lyon.fr>      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/05 15:39:47 by elagouch          #+#    #+#              #
-#    Updated: 2024/11/12 10:30:46 by elagouch         ###   ########.fr        #
+#    Updated: 2024/11/12 11:01:01 by elagouch         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -27,20 +27,21 @@ SRC =				\
 	ft_memcpy.c		\
 	ft_memmove.c	\
 	ft_memset.c		\
+	ft_split.c		\
 	ft_strdup.c		\
 	ft_strrchr.c	\
 	ft_strchr.c		\
+	ft_strjoin.c	\
 	ft_strlcat.c	\
 	ft_strlcpy.c	\
 	ft_strlen.c		\
 	ft_strnstr.c	\
 	ft_strncmp.c	\
-	ft_tolower.c	\
-	ft_toupper.c
-SRC_BONUS =			\
-	ft_strjoin.c	\
 	ft_strtrim.c	\
+	ft_tolower.c	\
+	ft_toupper.c	\
 	ft_substr.c
+SRC_BONUS =
 OBJ = $(SRC:.c=.o)
 
 LIB=libft.a

@@ -33,7 +33,7 @@
 - [x] ft\_substr
 - [x] ft\_strjoin
 - [x] ft\_strtrim
-- [ ] ft\_split
+- [x] ft\_split
 - [ ] ft\_itoa
 - [ ] ft\_itoa
 - [ ] ft\_striteri
