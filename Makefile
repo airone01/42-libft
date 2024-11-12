@@ -6,7 +6,7 @@
 #    By: elagouch <elagouch@student.42lyon.fr>      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/05 15:39:47 by elagouch          #+#    #+#              #
-#    Updated: 2024/11/12 18:54:08 by elagouch         ###   ########.fr        #
+#    Updated: 2024/11/12 19:01:57 by elagouch         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -49,6 +49,7 @@ SRC =				\
 	ft_toupper.c	\
 	ft_substr.c
 SRC_BONUS =				\
+	ft_lstadd_back.c	\
 	ft_lstadd_front.c	\
 	ft_lstlast.c		\
 	ft_lstnew.c			\
